@@ -184,27 +184,34 @@
         width: 100%;
         height: 40%;
         background-color:#98A1BC;
-        display: flex;
     }
-    .container-four  {
-        width: 50%;
-        height: 20%;
-       border-style: solid;
-        background-color:#98A1BC;
-        
-    }
-
-    .c-one{
+      .c-one{
         width: 100%;
         height: 40%;
-        
+       display: flex;
+    }
+    .container-four  {
+        width: 100%;
+        height: 20%;
+        background-color:#98A1BC;
+        margin-left: 20px;
+        margin-top: 10%;
     }
     .container-five {
-        width: 50%;
+        width: 100%;
         height: 20%;
-        border-style: solid;
         background-color:#98A1BC;
        
+    }
+    input{
+        width: 90%;
+        height: 70px;
+    }
+    form{
+        border-color: #000000;
+    }
+    input:hover{
+        border-color: rgb(255, 183, 0);
     }
     @keyframes krish {
 
@@ -335,10 +342,33 @@
         <br><br><br><br><br>
         <!-- contact section -->
         <div class="contact-section">
-            <h1 style="color:#FFFFFF; text-align: center; font-size:50px; margin-left: 300px;">Get in touch <br>with me</h1>
+            <h1 style="color:#FFFFFF; text-align: center; font-size:50px; ;">Get in touch <br>with me</h1>
             <div class="c-one">
-            <div class="container-four"></div>
-            <div class="container-five"></div>
+            <div class="container-four">
+                <form>
+                  
+                        <label></label>
+                        <input type="text" placeholder="Enter your name" >
+                        <br>
+                        <br>
+                        <label></label>
+                        <input type="text" placeholder="Enter your emial" >
+                        <br>
+                        <br>
+                        <label></label>
+                        <input type="text" placeholder=" your subject" >
+                        <br>
+                        <br>
+                        <label></label>
+                        <input type="text" placeholder="your message" >
+                        <br>
+                        <br>
+            
+                </form>
+            </div>
+            <div class="container-five">
+                <h1 style="color: white;">Contact info</h1>
+            </div>
         </div>
         </div>
     </div>
